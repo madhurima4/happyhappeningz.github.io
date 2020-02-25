@@ -1,0 +1,36 @@
+li {
+  list-style: none;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex.h-align-between {
+  justify-content: space-between;
+}
+
+.d-flex.h-align-around {
+  justify-content: space-around;
+}
+
+.d-flex.h-align-center {
+  justify-content: center;
+}
+
+.d-flex.v-align-center {
+  align-items: center;
+}
+
+#app-title {
+  color: saddlebrown;
+}
+
+.bigger-logo {
+  width: 300px;
+  border-radius: 50%;
+}
