@@ -11,7 +11,6 @@ body {
 }
 
 section {
-  min-height: 400px;
 }
 
 .d-flex {
@@ -34,8 +33,32 @@ section {
   align-items: center;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: lightgray;
+}
+
 #app-title {
-  color: saddlebrown;
+  color: #45505a;
+}
+
+#app-content {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  left: 0;
+  scroll-behavior: smooth;
+  overflow: auto;
+  bottom: 0;
+}
+
+.content-block {
+  min-height: 400px;
+  margin-top: 30px;
 }
 
 .bigger-logo {
@@ -44,7 +67,25 @@ section {
   margin: 5px auto;
 }
 
-#carouselExampleCaptions {
+#hhCarouselContainer {
   width: 60%;
   margin: 5px auto;
+}
+
+@media screen and (max-width: 800px) {
+  #header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #app-content {
+    top: 100px;
+  }
+  #app-title {
+  }
+  .nav-container {
+    justify-content: space-between;
+  }
+  #hhCarouselContainer {
+    width: 90%;
+  }
 }
