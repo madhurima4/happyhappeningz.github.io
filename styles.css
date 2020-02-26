@@ -82,9 +82,11 @@ header {
     top: 100px;
   }
   #app-title {
+    font-size: 1.3rem;
   }
   .nav-container {
     justify-content: space-between;
+    font-size: 12px;
   }
   #hhCarouselContainer {
     width: 90%;
@@ -92,5 +94,8 @@ header {
   .bigger-logo {
     height: 200px;
     width: 200px;
+  }
+  h4 {
+    font-size: 1.2rem;
   }
 }
