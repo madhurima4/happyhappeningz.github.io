@@ -89,4 +89,8 @@ header {
   #hhCarouselContainer {
     width: 90%;
   }
+  .bigger-logo {
+    height: 150px;
+    width: 150px;
+  }
 }
